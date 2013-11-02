@@ -18,6 +18,10 @@ The plugin shows a higher quality avatars when the default WordPress gravatar fu
 
 Simply download and activate it. No additional setup is required.
 
+== Screenshots ==
+
+1. Make gravatars look better on retina displays
+
 == Changelog ==
 
 = 1.0 =
