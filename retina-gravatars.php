@@ -17,7 +17,13 @@ function mrg_plugins_loaded() {
 function mrg_get_avatar($avatar, $id_or_email, $size, $default, $alt) {
 	$retina_size = absint($size) * 2;
 	
-	$avatar = preg_replace('/\?s=' . preg_quote($size) . '/', '?s=' . $retina_size, $avatar);
+	$size_argument = '?s=' . $size;
+	$size_retina_argument = '?s=' . $retina_size;
+	
+	// replace size for avatar
+	$avatar = preg_replace('/' . preg_quote($size_argument) . '/', $size_retina_argument, $avatar);
+	// replace size for default avatar
+	$avatar = preg_replace('/' . preg_quote(urlencode($size_argument)) . '/', urlencode($size_retina_argument), $avatar);
 	
 	return $avatar;
 }
