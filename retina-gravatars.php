@@ -2,7 +2,7 @@
 /**
  * Plugin Name: M Retina Gravatars
  * Description: Show retina avatars
- * Version: 1.0
+ * Version: 1.1
  * Author: Georgi Popov a.k.a. Magadanski_Uchen
  * Author URI: http://magadanski.com/
  * License: GPLv2

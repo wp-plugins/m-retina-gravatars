@@ -3,7 +3,7 @@ Contributors: magadanski_uchen
 Donate link: http://buy-me-a-beer.magadanski.com/project/m-retina-gravatars/
 Tags: avatar, gravatar, retina, HiDPI
 Requires at least: 3.0
-Tested up to: 3.8
+Tested up to: 3.9
 Stable tag: 1.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -26,7 +26,6 @@ Simply download and activate it. No additional setup is required.
 
 = 1.1 =
  * update for better support for avatars with default value
- * tested against WordPress 3.8
 
 = 1.0 =
 The plugin was released.
